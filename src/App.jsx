@@ -8,7 +8,7 @@ function App() {
  const [musicas,setMusicas]=useState([]);
 
   const addMusica = (musica) => {
-    setPacientes([...musicas,musica]);
+    setMusicas([...musicas,musica]);
     console.log(musicas)
   };
   
