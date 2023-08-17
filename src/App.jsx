@@ -13,7 +13,7 @@ function App() {
   };
   
   return (
-   <div className="App">
+   <div className=" App ">
       <h1> Formulario de Musica!! </h1>
       <Form onAddMusica={addMusica}/>
       <Card musicas={musicas}/>

@@ -5,7 +5,7 @@ function Card({ musicas }) {
     <div>
       <h2> Musica </h2>
       {musicas.map((musica, index) => (
-        <div key={index} className="card">
+        <div key={index} className=" card ">
           <h3>{musica.genero} {musica.artista}</h3>
         </div>
       ))}
